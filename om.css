@@ -1,0 +1,66 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+
+
+} /* backgrund */
+.about-us{
+  height: 100vh;
+  width: 100%;
+  padding: 150px 0;
+  background: #21c21248;
+}
+/* Om oss texten */
+.about{
+  width: 1130px;
+  max-width: 85%;
+  margin: 90px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.text{
+  width: 540px;
+}
+
+/* Rubrik */
+.text h2{
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+}
+/* Om oss text */
+.text h5{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+span{
+  color: #4070f4;
+}
+
+.data{
+  margin-top: 30px;
+}
+.ReturnTHP{
+  font-size: 18px;
+  background: #4070f4;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.ReturnTHP:hover{
+  background: #000;
+  border: 1px solid #4070f4;
+}
+
+
+
